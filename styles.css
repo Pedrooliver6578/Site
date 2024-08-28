@@ -1,0 +1,49 @@
+body {
+    background-color: #faa907; /* Cor de fundo cinza claro */
+    color: #fa0a8a; /* Cor do texto padrão */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do ícone do carrinho no cabeçalho */
+#carrinho-icon {
+    font-size: 16px;
+    color: rgb(237, 13, 174);
+    background-color: #e6c343;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Modal de detalhes do produto */
+.modal {
+    display: none; /* Oculto por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 16, 17, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: rgb(235, 14, 14);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal-close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    color: #1ad74c;
+}
+
+/* Estilo do filtro de produtos */
+.filtro {
+    margin: 20px;
+    text-align: center;
+}
